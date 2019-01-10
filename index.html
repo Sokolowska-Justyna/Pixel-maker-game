@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Guntur">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>PIXEL ART MAKER</h1>
+  <div>
+    <h2>Wybierz rozmiar siatki</h2>
+    <form id="sizePicker">
+      Wysokosc siatki:
+      <input type="number" id="inputHeight" name="height" min="1" max="30" value="10" />
+      Szerokosc siatki:
+      <input type="number" id="inputWeight" name="width" min="1" max="30" value="30" />
+      <button class="SeeMore2">Przeslij</button>
+    </form>
+    <h3>Wybierz kolor</h3>
+    <input type="color" id="colorPicker">
+  </div>
+  <h3>Projekt</h3>
+  <table id="pixelCanvas"></table>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

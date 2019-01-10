@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: #4c1933;
+}
+
+h1 {
+  font-family: "Faster One", cursive;
+  color: #b2b8c1;
+  font-size: 70px;
+  margin: 0.1em;
+  margin-bottom: 10px;
+  background: radial-gradient(circle, #ff52, transparent);
+  padding: 12px 2%;
+}
+
+div {
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(150, 100, 100, 0.4) 2%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 60px;
+  width: 40%;
+  float: left;
+  margin: 20px 0px 0px 50px;
+  height: 290px;
+}
+
+h2 {
+  margin: 10px 10px 10px 10px;
+  font-family: "Hind Guntur", sans-serif;
+  color: #b2b8c1;
+}
+
+h2:first-of-type {
+  margin-top: 1em;
+  font-family: "Hind Guntur", sans-serif;
+  color: #b2b8c1;
+}
+
+h3 {
+  margin: 1em 0 0.25em;
+  font-family: "Hind Guntur", sans-serif;
+  color: #b2b8c1;
+  margin: 50px 0px 0px 0px;
+}
+
+table,
+tr,
+td {
+  border: 1px dotted #676868;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+#sizePicker {
+  font-family: "Hind Guntur", sans-serif;
+  color: #ffffe0;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 6em;
+}
+input[type="color"] {
+  width: 5em;
+  height: 5em;
+  border-radius: 20px 0px;
+}
